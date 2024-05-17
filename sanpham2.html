@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chi tiết sản phẩm</title>
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Link Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Link CSS custom -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/logo.png" alt="Logo" style="max-height: 50px;">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Trang chủ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">Giới thiệu</a>
+                    </li>
+                    <!-- Add more navigation links as needed -->
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Product Detail -->
+     <!-- Product section-->
+      
+    
+     <section class="py-5">
+        <div class="container px-4 px-lg-5 my-5">
+            <div class="row gx-4 gx-lg-5 align-items-center">
+                <div class="col-md-6"><img class="card-img-top mb-5 mb-md-0" src="img/hinh2.jpeg" alt="den" /></div>
+                <div class="col-md-6">
+                    <h1 class="display-5 fw-bolder" style="color: blue; font-size: 40px;">
+                        <strong>Đèn LED pha năng lượng mặt trời PSOSE20L</strong>
+                    </h1>
+                    
+                     
+
+              <div class="col-12 col-md-6 col-lg-6 summary entry-summary  box-product-detail">
+        
+      
+                <div class="product_meta">
+                    <span class="sku_wrapper">
+                        <strong>Mã sản phẩm:</strong>
+                        <span class="sku">PSOSE20L</span>
+                    </span>
+                    <span class="brand_wrapper">
+                        <strong>Thương hiệu:</strong>
+                        <span class="brand">Paragon</span>
+                    </span>
+                    <span class="posted_in">
+                        <strong>Chủng loại:</strong>
+                        <span class="category">Đèn LED pha</span>
+                    </span>
+                </div>
+                
+         
+        <p class="price p-item1__price1">
+            <span class="woocommerce-Price-amount amount">
+                <bdi>
+                    <strong style="color: blue; font-size: 30px;">2.230.000</strong><span class="woocommerce-Price-currencySymbol" style="color: blue; font-size: 30px;"> <strong>VND</strong></span>
+                </bdi>
+            </span>
+        </p>
+        
+        <form class="d-flex" action="giohang.html">
+            <button class="btn btn-outline-dark" type="submit">
+                <i class="bi-cart-fill me-1"></i>
+               Thêm vào giỏ Hàng
+                <span class="badge bg-dark text-white ms-1 rounded-pill cart-badge">0</span>
+            </button>
+        </form>
+         
+            <script>
+                var qty = document.getElementsByName('quantity')[0];
+                var pid = 18224;
+
+                document.onload = function() {
+                    document.getElementById("quick-buy").href = "https://paragon.com.vn/checkout/?add-to-cart=" + pid + '&quantity=' + parseInt(jQuery(qty).val());
+                }
+
+                qty.onchange = function() {
+                    document.getElementById("quick-buy").href = "https://paragon.com.vn/checkout/?add-to-cart=" + pid + '&quantity=' + parseInt(jQuery(qty).val());
+                }
+            </script>
+           
+        </form>
+    </div>
+</div>
+
+<div class="row row-2 space-80 aaaa">
+    <div class="col-lg-6 left">
+        <h5 class="cl1">Mô tả sản phẩm</h5>
+        <div class="product-content">
+            <p style="text-align: justify;">
+                <strong>Đèn đường LED năng lượng mặt trời PSOSE50L</strong>
+                là một trong những sản phẩm đèn năng lượng mới nhất được  <strong>Paragon </strong>
+                cho ra mắt. Được thiết kế với ngoại quang hiện đại, mới lạ và bắt mắt cùng với những linh kiện chất lượng cao được trang bị bên trong đặc biệt là tấm Pin mặt trời phía trên cho bạn một giải pháp chiếu sáng hiện đại, tiện lợi với ánh sáng chất lượng cao và tạo thêm điểm nhấn nổi bật cho không gian. Sản phẩm được bảo hành chính hãng trong <strong>2 năm</strong>
+                .
+            </p>
+            <p>&nbsp;</p>
+        </div>
+    </div>
+    <div class="col-lg-6 right">
+        <div class="toggleAutoHeight mb-20" data-height="300" data-more="Xem tiếp" data-less="Thu gọn">
+            <h5 class="cl2">Thông số kỹ thuật</h5>
+            <table class="tskt woocommerce-product-attributes shop_attributes tgh-content simple">
+                <tr class="woocommerce-product-attributes-item woocommerce-product-attributes-item--pa_mau-anh-sang"></tr>
+                <tr>
+                    <th>Màu ánh sáng</th>
+                    <td class="pda-6000-6500K">: 6000-6500K</td>
+                </tr>
+                <tr>
+                    <th>Công suất</th>
+                    <td>: 50 &nbsp;W</td>
+                </tr>
+                <tr>
+                    <th>Quang thông</th>
+                    <td>: 1250 &nbsp;Lm</td>
+                </tr>
+                <tr>
+                    <th>Tuổi thọ</th>
+                    <td>: 25000 &nbsp;H</td>
+                </tr>
+                <tr>
+                    <th>IP</th>
+                    <td>: 65 &nbsp;</td>
+                </tr>
+                <tr>
+                    <th>CRI</th>
+                    <td>: 70 &nbsp;</td>
+                </tr>
+                <tr>
+                    <th>Chip LED</th>
+                    <td>: Epistar/Bridgelux &nbsp;</td>
+                </tr>
+                <tr>
+                    <th>Bảo hành</th>
+                    <td>: 2 &nbsp;năm</td>
+                </tr>
+                <tr>
+                    <th>Tấm pin năng lượng</th>
+                    <td>: 18V 30W Polycrystalline &nbsp;</td>
+                </tr>
+                <tr>
+                    <th>Pin</th>
+                    <td>: LiFePO4 12.8V 18Ah &nbsp;</td>
+                </tr>
+                <tr>
+                    <th>Thời gian sạc</th>
+                    <td>: 6-8h &nbsp;</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+  
+<div class="row row-2 space-80 aaaa">
+    <div class="col-lg-6 left">
+        <h5 class="cl1" style="font-size: 30px; color: #0077cc;">Giới thiệu chi tiết sản phẩm</h5>
+        <div class="product-content">
+             
+            <p>&nbsp;</p>
+        </div>
+    </div>
+</div>
+
+
+                
+            </ul>
+            <div class="woocommerce-Tabs-panel woocommerce-Tabs-panel--feature_tab panel entry-content wc-tab" id="tab-feature_tab" role="tabpanel" aria-labelledby="tab-title-feature_tab">
+                <div class="toggleAutoHeight 1" data-height="500" data-more="Xem tiếp" data-less="Thu gọn">
+                    <div class="tgh-content">
+                        <h2 style="text-align: justify; font-size: 25px;">
+                            <strong>Đặc điểm nổi bật</strong>
+                        </h2>
+                        <ul style="text-align: justify; font-size: 25px;">
+                            <li>Đèn pha LED năng lượng mặt trời với tiêu chuẩn IP65.</li>
+                            <li>Tấm pin sạc năng lượng mặt trời: Lithium-ion với độ bền lâu dài, duy trì nguồn năng lượng cho bộ đèn</li>
+                            <li>Dùng năng lượng mặt trời, không cần dây dẫn</li>
+                            <li>Được trang bị điều khiển từ xa giúp dễ dàng điều khiển.</li>
+                            <li>Hiệu năng sạc cao nhờ tấm Pin Polycrystaline phủ trên bề mặt pin</li>
+                            <li>Nhiệt độ để nạp điện vào ban ngày là từ 0 độ C đến 60 độ C.</li>
+                            <li>Khi nhiệt độ xuống thấp hơn 0 độ C, hệ thống kiểm soát sẽ tự động ngừng nạp điện để bảo vệ pin và sẽ nạp điện trở lại bất kỳ lúc nào khi nhiệt độ cao hơn 0 độ C.</li>
+                            <li>Nhiệt độ phóng điện vào ban đêm từ -20 độ C đến 60 độ C. Bất kỳ nhiệt độ nào vượt quá mức này sẽ gây thiệt hại cho pin.</li>
+                        </ul>
+                        <h2 style="text-align: justify; font-size: 25px;">
+                            <strong>Nguyên lý hoạt động</strong>
+                        </h2>
+                        <ol style="text-align: justify; font-size: 25px;">
+                            <li>Ánh sáng mặt trời được hấp thụ vào tấm Pin Polycrystaline của đèn vào ban ngày.</li>
+                            <li>Năng lượng mặt trời được lưu lại vào bộ nguồn được tích hợp bên trong đèn.</li>
+                            <li>Năng lượng được biến đổi thành điện năng giúp đèn phát sáng vào ban đêm.</li>
+                        </ol>
+                        <h2 style="text-align: justify; font-size: 25px;">
+                            <strong>Lưu ý</strong>
+                        </h2>
+                        <ul style="text-align: justify; font-size: 25px;">
+                            <li>Đèn pha LED PSOSE được thiết kế với Pin Lithium với độ bền lâu dài để duy trì năng lượng cho bộ đèn.</li>
+                            <li>Nhiệt độ để nạp điện vào ban ngày là từ 0 độ C đến 60 độ C.</li>
+                            <li>Khi nhiệt độ xuống thấp hơn 0 độ C, hệ thống kiểm soát sẽ tự động ngừng nạp điện để bảo vệ pin và sẽ nạp điện trở lại bất kỳ lúc nào khi nhiệt độ cao hơn 0 độ C.</li>
+                            <li>Nhiệt độ phóng điện vào ban đêm từ -20 độ C đến 60 độ C. Bất kỳ nhiệt độ nào vượt quá mức này sẽ gây thiệt hại cho pin.</li>
+                        </ul>
+                        <h2 style="text-align: justify; font-size: 25px;">
+                            <strong>Chế độ điều khiển</strong>
+                        </h2>
+                        <p>
+                            <img fetchpriority="high" decoding="async" class="wp-image-20468 size-medium" src="https://paragon.com.vn/wp-content/uploads/2021/01/IMG_8145-500x432.png" alt="điều khiển PSOSE" width="500" height="432" srcset="https://paragon.com.vn/wp-content/uploads/2021/01/IMG_8145-500x432.png 500w, https://paragon.com.vn/wp-content/uploads/2021/01/IMG_8145-800x691.png 800w, https://paragon.com.vn/wp-content/uploads/2021/01/IMG_8145-1024x885.png 1024w, https://paragon.com.vn/wp-content/uploads/2021/01/IMG_8145-768x664.png 768w, https://paragon.com.vn/wp-content/uploads/2021/01/IMG_8145-30x26.png 30w, https://paragon.com.vn/wp-content/uploads/2021/01/IMG_8145-80x69.png 80w, https://paragon.com.vn/wp-content/uploads/2021/01/IMG_8145.png 1509w" sizes="(max-width: 500px) 100vw, 500px"/>
+                        </p>
+                        <ul style="text-align: justify; font-size: 25px;">
+                        </p>
+                        <ul style="text-align: justify;">
+                            <li>Tắt đèn sau 4h tính từ khi trời tối</li>
+                            <li>Tắt đèn sau 6h tính từ khi trời tối</li>
+                            <li>Kích hoạt chức năng tự động bật sáng khi trời tối, tự động tắt khi trời sáng</li>
+                            <li>Bật chế độ sáng 100% (Bộ điều khiển ánh sáng đã tắt)</li>
+                            <li>Tắt chế độ sáng 100% (Tắt điều khiển ánh sáng)</li>
+                        </ul>
+                         
+                    </div>
+                </div>
+            </div>
+            <div class="woocommerce-Tabs-panel woocommerce-Tabs-panel--dimension_tab panel entry-content wc-tab" id="tab-dimension_tab" role="tabpanel" aria-labelledby="tab-title-dimension_tab">
+                <div class="dimensions toggleAutoHeight 2" data-height="500" data-more="Xem tiếp" data-less="Thu gọn">
+                    <div class="tgh-content"></div>
+                </div>
+            </div>
+            <div class="woocommerce-Tabs-panel woocommerce-Tabs-panel--download_tab panel entry-content wc-tab" id="tab-download_tab" role="tabpanel" aria-labelledby="tab-title-download_tab"></div>
+        </div>
+    </div>
+
+    <!-- Link JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+     <!-- Footer-->
+     <footer class="py-5 bg-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="social-media-wrapper mt-5 text-center">
+                        <ul class="nav justify-content-center">
+                            <li class="nav-item me-3">
+                                <a class="nav-link link-primary p-2 bg-light rounded" href="https://www.facebook.com/yeudongho.lonely">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                                        <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="nav-item me-3">
+                                <a class="nav-link link-primary p-2 bg-light rounded" href="https://www.youtube.com/@bossluxury">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
+                                        <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z" />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="nav-item me-3">
+                                <a class="nav-link link-primary p-2 bg-light rounded" href="index.html">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                                        <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link link-primary p-2 bg-light rounded" href="https://www.instagram.com/luxury_watch_w/">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                                        <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-md-12 text-center">
+                    <p class="text-white">© 2024 PARAGON. Đã Đăng Ký Bản Quyền.</p>
+                    <p class="text-white">Đèn năng lượng mặt trời - Nguồn năng lượng sạch</p>
+                    <p class="text-white">Địa chỉ: Càng Long, tp.Trà Vinh | Phone: 0385254661 | Email: nguyentran2004tv@gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+</body>
+</html>
